@@ -78,3 +78,30 @@ print(course.find('Beginners'))  # Find the index of 'Beginners'
 print(course.replace('Beginners', 'Absolute Beginners'))  # Replace a substring
 
 print('Python' in course)  # Check if 'Python' is in the string, returns True (boolean)
+
+
+#Arithmetic operations (// = floor division) (** = to the power) 
+x = 10
+x += 3
+print(x)
+y = 10
+y -= 3
+print(y)
+
+x = 10 + 3 * 2 ** 2
+print(x)  # Output: 10 + 3 * 4 = 10 + 12 = 22
+x = (10 + 3) * 2 ** 2
+print(x)  # Output: (10 + 3) * 4 = 13 * 4 = 52
+x = (2 + 3) * 10 - 3 # Output: (2 + 3) * 10 - 3 = 5 * 10 - 3 = 50 - 3 = 47
+print(x)  # Output: 47
+
+#Math functions
+x = 2.9
+print(round(x))  # Round to the nearest integer
+print(abs(-2.9))  # Absolute value
+
+import math
+print(math.ceil(2.9)) # Ceiling value
+print(math.floor(2.9))  # Floor value
+
+
