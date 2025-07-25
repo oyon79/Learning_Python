@@ -104,4 +104,9 @@ import math
 print(math.ceil(2.9)) # Ceiling value
 print(math.floor(2.9))  # Floor value
 
+#if statements
+is_hot = True
+if is_hot:
+  print("It's a hot day")
+print("Enjoy your day")
 
